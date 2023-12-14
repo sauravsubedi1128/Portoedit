@@ -1,0 +1,6 @@
+//ActionType.js
+export const UPDATE_PHONE_NUMBER = "UPDATE_PHONE_NUMBER";
+export const UPDATE_EMAIL = "UPDATE_EMAIL";
+export const UPDATE_ADDRESS = "UPDATE_ADDRESS";
+export const UPDATE_LINKEDIN = "UPDATE_LINKEDIN";
+export const UPDATE_HEADER = " UPDATE_HEADER";
