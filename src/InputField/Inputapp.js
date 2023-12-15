@@ -10,20 +10,11 @@ import Skilssinput from './Skilssinput'
 import Languageinput from './Languageinput'
 import { useState } from 'react'
 const Inputapp = () => {
-  const [contactDetails, setContactDetails] = useState({
-    phoneNumber: '',
-    email: '',
-    address: '',
-    linkedin: '',
-  });
-  const handleContactDetailsChange = (newContactDetails) => {
-    setContactDetails(newContactDetails);
-  };
-
+ 
   return (
     <div>
       <Headerinput/>
-      <Contactinput onChange={handleContactDetailsChange}/>
+      <Contactinput />
       <Careerobjinput/>
       <Eduinput/>
       <WorkExpinput/>

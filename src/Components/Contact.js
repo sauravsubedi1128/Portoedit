@@ -7,7 +7,8 @@ import { AiOutlineHome } from "react-icons/ai";
 
 function Contact() {
   const { phoneNumber, email, address, linkedin } = useSelector(
-    (state) => state);
+    (state) => state
+  );
 
   return (
     <div className="text-white mt-24 px-2">

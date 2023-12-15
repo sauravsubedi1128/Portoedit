@@ -1,14 +1,21 @@
 import { CiEdit } from "react-icons/ci";
+import { useDispatch, useSelector } from "react-redux";
+import { clickEduBtn } from "../Redux/Actions";
 
 function Edu() {
+  const dispatch = useDispatch();
+  const value = useSelector((state) => state.eduBtn);
+
+  const handleClick = () => {
+    dispatch(clickEduBtn(!value));
+  };
   return (
     <div className="mb-9">
       <div>
         <h1 className="bg-slate-700 h-[40px] w-[100%] p-3 font-bold text-white uppercase">
           Education
         </h1>
-        <CiEdit />
-
+        <CiEdit onClick={handleClick} />
       </div>
       <div className="ml-4 mt-4">
         <div className="m-2">

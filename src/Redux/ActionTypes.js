@@ -1,6 +1,16 @@
-//ActionType.js
 export const UPDATE_PHONE_NUMBER = "UPDATE_PHONE_NUMBER";
 export const UPDATE_EMAIL = "UPDATE_EMAIL";
 export const UPDATE_ADDRESS = "UPDATE_ADDRESS";
 export const UPDATE_LINKEDIN = "UPDATE_LINKEDIN";
-export const UPDATE_HEADER = " UPDATE_HEADER";
+export const UPDATE_HEADER = "UPDATE_HEADER";
+export const BTN_CLICK = "BTN_CLICK";
+export const NAME_BTN = "NAME_BTN";
+export const EDU_BTN = "EDU_BTN";
+export const CAREEROBJ_BTN = "CAREEROBJ_BTN";
+export const CONTACT_BTN = "CONTACT_BTN";
+export const SKILLS_BTN = "SKILLS_BTN";
+export const LANGUAGE_BTN = "LANGUAGE_BTN";
+export const WORKEXP_BTN = "WORKEXP_BTN";
+export const VOLUNEXP_BTN = "VOLUNEXP_BTN";
+export const KEYQUAL_BTN = "KEYQUAL_BTN";
+export const UPDATE_CAREEROBJ = "UPDATE_CAREEROBJ";

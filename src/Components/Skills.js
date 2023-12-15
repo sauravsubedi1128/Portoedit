@@ -1,10 +1,17 @@
 import { CiEdit } from "react-icons/ci";
-
+import { useDispatch, useSelector } from "react-redux";
+import { clickskillsBtn } from "../Redux/Actions";
 function Skills() {
+  const dispatch = useDispatch();
+  const value = useSelector((state) => state.skillsBtn);
+
+  const handleClick = () => {
+    dispatch(clickskillsBtn(!value));
+  };
   return (
     <div className="text-white mt-60 px-2">
       <h1 className="font-bold">Skills</h1>
-      <CiEdit />
+      <CiEdit onClick={handleClick} />
 
       <p className="bg-white h-[2px] w-[95%]"></p>
       <div className="flex flex-row justify-between py-3 ">
